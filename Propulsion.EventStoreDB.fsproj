@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5</TargetFramework>
+    <WarningLevel>5</WarningLevel>
+    <IsTestProject>false</IsTestProject>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+    <DisableImplicitSystemValueTupleReference>true</DisableImplicitSystemValueTupleReference>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Infrastructure.fs" />
+    <Compile Include="Stats.fs" />
+    <Compile Include="Checkpoint.fs" />
+    <Compile Include="StreamReader.fs" />
+    <Compile Include="AllStreamReader.fs" />
+    <Compile Include="NamedStreamReader.fs" />
+    <Compile Include="EventStoreSource.fs" />
+    <Content Include="README.md" />
+  </ItemGroup>
+  <Import Project="..\..\.paket\Paket.Restore.targets" />
+</Project>

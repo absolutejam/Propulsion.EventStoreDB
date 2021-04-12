@@ -1,0 +1,7 @@
+group PropulsionEventStoreDB
+    Microsoft.SourceLink.GitHub
+    MinVer
+
+    Propulsion
+    EventStore.Client
+    Newtonsoft.Json
